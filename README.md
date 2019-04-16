@@ -30,4 +30,13 @@ rawgit 倒闭了
 有人提出可以走eval
 
 
+https://cdn.jsdelivr.net/gh/lemon-machine/static/
+
+原来分支会变成@master类似版本号一样的东西
+
+https://cdn.jsdelivr.net/gh/lemon-machine/static@master/test.js
+
+真正地址是这样
+
+
 
