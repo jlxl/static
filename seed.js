@@ -39,7 +39,7 @@
     document.body.appendChild(d);
   } else {
     var k = "https://fanyi.youdao.com";
-    var a = "/web2/conn.html";
+    var a = k+"/web2/conn.html";
     var l = h + "/index.do";
     var g = k + "/jtr";
     var c = h + "/rl.do";
