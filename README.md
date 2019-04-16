@@ -6,14 +6,11 @@ https://fanyi.youdao.com/web2/
 
 这东西特别好用， 不过现在多年不维护。小书签里 http内容加载到https会挂。在这里做了个镜像，修改链接到https
 
-<a href='javascript: void((function() %7Bvar element %3D document.createElement(%27script%27)%3Belement.id %3D %27outfox_seed_js%27%3Belement.charset %3D %27utf-8%27,element.setAttribute(%27src%27, %27https://cdn.jsdelivr.net/gh/lemon-machine/static@master/seed.gh.js%3F%27 %2B Date.parse(new Date()))%3Bdocument.body.appendChild(element)%3B%7D)())'>https修复版本的网易云翻译</a>
+```
+javascript: void((function() %7Bvar element %3D document.createElement(%27script%27)%3Belement.id %3D %27outfox_seed_js%27%3Belement.charset %3D %27utf-8%27,element.setAttribute(%27src%27, %27https://cdn.jsdelivr.net/gh/lemon-machine/static@master/seed.gh.js%3F%27 %2B Date.parse(new Date()))%3Bdocument.body.appendChild(element)%3B%7D)())
+```
 
-
-
-
-
-
-
+markdown的link对超长多jslink 似乎有问题。没法写在readme里来。  点 [./bookmarklet.html](./bookmarklet.html)
 
 
 
