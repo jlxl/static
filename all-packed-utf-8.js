@@ -1188,7 +1188,7 @@ if (
       b.tagName === "SCRIPT" ||
       b.tagName === "STYLE" ||
       b.tagName === "PRE" ||
-      b.tagName.toUpperCase() === 'SVG'  ||
+      b.tagName === 'svg'  ||
       (b.className && b.className.indexOf("OUTFOX_JTR_") !== -1)
     );
   };
