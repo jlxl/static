@@ -1184,6 +1184,7 @@ if (
     }
   };
   TR.isInclude = function(b) {
+    console.log(b, b.tagName,b.className);
     return !(
       b.tagName === "SCRIPT" ||
       b.tagName === "STYLE" ||
