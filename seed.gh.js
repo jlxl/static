@@ -21,7 +21,7 @@
     return;
   }
   var h = "https://fanyi.youdao.com/web2";
-  var gh = "https://cdn.jsdelivr.net/gh/lemon-machine/static@master";
+  var gh = "https://cdn.jsdelivr.net/gh/jlxl/static@master";
   var e = new Image();
   e.src =
     "https://fanyi.youdao.com/web2/rl.do?action=init&relatedURL=" +
