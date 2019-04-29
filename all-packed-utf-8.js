@@ -1184,11 +1184,11 @@ if (
     }
   };
   TR.isInclude = function(b) {
-    console.log(b, b.tagName,b.className);
     return !(
       b.tagName === "SCRIPT" ||
       b.tagName === "STYLE" ||
       b.tagName === "PRE" ||
+      b.tagName.toUpperCase() === 'SVG'  ||
       (b.className && b.className.indexOf("OUTFOX_JTR_") !== -1)
     );
   };
